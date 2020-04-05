@@ -27,6 +27,7 @@
 
 .clearItem {
   color: #ada7a7;
+  top: -20px;
   left: 14rem;
   width: 25px;
   height: 22px;
@@ -43,6 +44,7 @@
   cursor: pointer;
   color: #c9c2c2;
   width: 24px;
+  top: -20px;
   left: 14rem;
   height: 22px;
   padding-top: 3px;

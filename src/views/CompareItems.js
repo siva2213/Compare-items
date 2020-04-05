@@ -61,9 +61,12 @@ class CompareItem extends Component {
   };
 
   onShowOnlyDiff = () => {
-    this.setState({
-      isShowOnlyDiff: !this.state.isShowOnlyDiff,
-    });
+    debugger;
+    if (this.state.selectedItemsCount.length > 2) {
+      this.setState({
+        isShowOnlyDiff: !this.state.isShowOnlyDiff,
+      });
+    }
   };
 
   render() {
