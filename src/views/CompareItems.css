@@ -1,0 +1,77 @@
+.listStyling {
+  width: 215px;
+  padding: 1rem;
+  position: relative;
+  font-size: 12px;
+}
+
+.showDiffStyle {
+  width: 215px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  font-size: 14px;
+  padding-bottom: 2rem;
+}
+
+.dummyImageView {
+  background-color: #e6e6e6;
+  margin: 0 0 1rem 0;
+  height: 150px;
+}
+.imageView {
+  margin: 0 0 1rem 0;
+  height: 150px;
+}
+
+.clearItem {
+  color: #ada7a7;
+  left: 14rem;
+  width: 25px;
+  height: 22px;
+  padding-top: 4px;
+  border-radius: 14px;
+  border: 0.5px solid #ada7a7;
+  position: absolute;
+  text-align: center;
+  box-shadow: 0px 0px 2px 0px;
+  cursor: pointer;
+}
+
+.clearItem:hover {
+  cursor: pointer;
+  color: #c9c2c2;
+  width: 24px;
+  left: 14rem;
+  height: 22px;
+  padding-top: 3px;
+  border-radius: 14px;
+  border: 0.5px solid #c9c2c2;
+  position: absolute;
+  text-align: center;
+}
+
+.select {
+  display: flex;
+}
+
+.priceView {
+  display: flex;
+}
+
+.priceViewItem {
+  padding-right: 0.5rem;
+  padding-top: 1rem;
+}
+
+.table-container {
+  display: flex;
+}
+
+.NoData {
+  border-top: 1px solid #f5f5f5;
+  padding-top: 4rem;
+  color: green;
+  font-size: 20px;
+}
