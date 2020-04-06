@@ -108,7 +108,7 @@ class CompareItem extends Component {
                       className="clearItem"
                       onClick={() => {
                         const index = this.state.selectedItemsCount.findIndex(
-                          (item, i) => {
+                          (item) => {
                             return (
                               item &&
                               item[0].value ===
@@ -191,7 +191,7 @@ class CompareItem extends Component {
                         );
                         const removeCurrentItemFromList = this.state.selectedItemsCount.splice(
                           index,
-                          index + 1
+                          1
                         )[0];
                         const currentSeletedItems = this.state
                           .selectedItemsCount;
